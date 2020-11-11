@@ -43,8 +43,10 @@ body {
 .header {
   height: 85vh;
   weight: 100vw;
+  clip-path: polygon(0 0, 100% 0, 100% 30%, 100% 91%, 92% 100%, 8% 100%, 0 91%, 0% 30%);
   background-color: rgba(0, 0, 0, 0.658);
-  position: relative; }
+  position: relative;
+  box-shadow: 0px 5px 13px 0px rgba(7, 6, 7, 0.774); }
   .header__heading {
     margin-top: 20vh;
     display: flex;
@@ -164,18 +166,26 @@ body {
   .blank__text {
     width: 100%;
     background-image: linear-gradient(90deg, black 0%, black 30%, #b01f22 100%); }
+    .blank__text--heading--h1 {
+      font-family: "Anton", sans-serif;
+      font-size: 8rem;
+      margin-left: 7vw;
+      color: #ece8e1; }
   @media screen and (max-width: 50em) {
     .blank {
       flex-direction: column; }
       .blank__logo--img {
         height: auto;
-        width: 80%; }
+        width: 70%; }
       .blank__text {
         margin-top: -3px;
-        background-image: linear-gradient(90deg, black 0%, black 30%, #b01f22 70%, black 100%); } }
+        background-image: linear-gradient(90deg, black 0%, black 25%, #9b1e20 60%, black 100%); } }
 
 .game {
-  min-height: 55vh;
+  padding-top: 10vh;
+  margin-top: -8vh;
+  min-height: 65vh;
+  max-height: min-content;
   width: 100%;
   background-color: #ece8e1;
   display: flex;
