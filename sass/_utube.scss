@@ -1,0 +1,25 @@
+.utube{
+    margin-top: -3vh;
+    background-color: #ece8e1;
+    height: min-content;
+    display: flex;
+   justify-content: space-evenly;
+    
+    &__video{
+        margin: 7vh 0 7vh 0;
+        width: 35vw;
+    }
+
+
+
+
+    @media screen and (max-width: $bp-medium){
+        flex-direction: column;
+
+        &__video{
+            margin: 7vh auto 7vh auto;
+            width: 75vw;
+           
+        }
+    }
+}

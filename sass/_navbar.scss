@@ -1,15 +1,15 @@
 .navbar{
     min-height: 9vh;
     max-height: min-content;
-    background-color:#000000d5;
+    background-color:#000000c9;
     //#0f1923da
-    clip-path: polygon(0 0, 100% 0, 100% 78%, 94% 100%, 6% 100%, 0 78%);
+    //clip-path: polygon(0 0, 100% 0, 100% 78%, 94% 100%, 6% 100%, 0 78%);
     box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
 }
 .link__{
     color:#f5f0e9;
     padding: 5vh .75vh;
-    font-size: 2.3rem;
+    font-size: 2.2rem;
     font-weight: bold;
     height: 100%;
     @media screen and (max-width: 550px){
@@ -33,6 +33,7 @@
     &:hover{
       background-color: #fbfbfb ;
       color:#000000cb;
+      padding: 3.5vh .75vh;
     }
 }
 
