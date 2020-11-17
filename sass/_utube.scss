@@ -1,13 +1,40 @@
+.filler{
+    margin-top: -4vh;
+    height: 4vh;
+    background-image: linear-gradient(to bottom,black,#240732 30%,#240732);
+}
+
 .utube{
-    margin-top: -3vh;
-    background-color: #ece8e1;
+    background: linear-gradient(to right,#d57fea79, #9907fa93), url("../img/valorant.jpg") no-repeat top center;
+    //background: linear-gradient(to right,#d57feac9, #9907facc), url("../img/valorant.jpg") no-repeat top center;
+
+    margin-top: -2.5vh;
+
+    // background-image: url("../img/valorant.jpg");
+    background-size: cover;
+    // background-position: center;
+    //background-color:#240732;
     height: min-content;
     display: flex;
-   justify-content: space-evenly;
-    
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+
     &__video{
-        margin: 7vh 0 7vh 0;
+        margin: 7vh 0 10vh 0;
         width: 35vw;
+        border-radius: 10px;
+background: #240732;
+box-shadow:  7px 7px 19px #1e062a, 
+             -7px -7px 19px #2a083b;
+
+
+            &--1{
+                // margin-top: 10vh;
+                // box-shadow:  20px 20px 60px #000000,
+                // -20px -20px 60px #000000;
+            }
     }
 
 
@@ -15,11 +42,21 @@
 
     @media screen and (max-width: $bp-medium){
         flex-direction: column;
+        background-position: center;
 
         &__video{
             margin: 7vh auto 7vh auto;
             width: 75vw;
-           
+            border-radius: 14px;
+            background: linear-gradient(145deg, #270736, #20062d);
+            border-radius: 10px;
+background: #240732;
+box-shadow:  7px 7px 19px #1e062a, 
+             -7px -7px 19px #2a083b;
+            &--1{
+                display: none;
+            }
+
         }
     }
 }

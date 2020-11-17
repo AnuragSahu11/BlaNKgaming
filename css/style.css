@@ -287,21 +287,40 @@ body {
         margin-top: -3px;
         background-image: linear-gradient(90deg, black 0%, black 20%, #811516 55%, black 100%); } }
 
+.filler {
+  margin-top: -4vh;
+  height: 4vh;
+  background-image: linear-gradient(to bottom, black, #240732 30%, #240732); }
+
 .utube {
-  margin-top: -3vh;
-  background-color: #ece8e1;
+  background: linear-gradient(to right, #d57fea79, #9907fa93), url("../img/valorant.jpg") no-repeat top center;
+  margin-top: -2.5vh;
+  background-size: cover;
   height: min-content;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-evenly; }
   .utube__video {
-    margin: 7vh 0 7vh 0;
-    width: 35vw; }
+    margin: 7vh 0 10vh 0;
+    width: 35vw;
+    border-radius: 10px;
+    background: #240732;
+    box-shadow: 7px 7px 19px #1e062a,  -7px -7px 19px #2a083b; }
   @media screen and (max-width: 50em) {
     .utube {
-      flex-direction: column; }
+      flex-direction: column;
+      background-position: center; }
       .utube__video {
         margin: 7vh auto 7vh auto;
-        width: 75vw; } }
+        width: 75vw;
+        border-radius: 14px;
+        background: linear-gradient(145deg, #270736, #20062d);
+        border-radius: 10px;
+        background: #240732;
+        box-shadow: 7px 7px 19px #1e062a,  -7px -7px 19px #2a083b; }
+        .utube__video--1 {
+          display: none; } }
 
 .game {
   padding-top: 10vh;
