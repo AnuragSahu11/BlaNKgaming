@@ -5,7 +5,22 @@
     clip-path: polygon(16% 3%, 85% 3%, 100% 0, 100% 100%, 86% 97%, 15% 97%, 0 100%, 0 0);
     color: whitesmoke;
 
-    
+    position: relative; 
+    &:after{
+            letter-spacing: 2vw;
+            font-family: $font-primary;
+            content: "BlaNK";
+            font-size: 23rem; 
+            opacity: 0.3;
+            margin: 10vh 0vw 0vh 50vw ; 
+            position: absolute; 
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke-width: 1px;
+            color: rgb(180, 134, 134); 
+            top: 0; 
+            left: 0; 
+            //z-index: -1; 
+    }
 
     &__logo{
         background-color: black;

@@ -258,7 +258,21 @@ body {
   display: flex;
   height: min-content;
   clip-path: polygon(16% 3%, 85% 3%, 100% 0, 100% 100%, 86% 97%, 15% 97%, 0 100%, 0 0);
-  color: whitesmoke; }
+  color: whitesmoke;
+  position: relative; }
+  .blank:after {
+    letter-spacing: 2vw;
+    font-family: "Anton", sans-serif;
+    content: "BlaNK";
+    font-size: 23rem;
+    opacity: 0.3;
+    margin: 10vh 0vw 0vh 50vw;
+    position: absolute;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: #b48686;
+    top: 0;
+    left: 0; }
   .blank__logo {
     background-color: black; }
     .blank__logo--img {
@@ -289,7 +303,7 @@ body {
 
 .filler {
   margin-top: -4vh;
-  height: 4vh;
+  height: 2vh;
   background-image: linear-gradient(to bottom, black, #240732 30%, #240732); }
 
 .utube {
@@ -305,8 +319,12 @@ body {
     margin: 7vh 0 10vh 0;
     width: 35vw;
     border-radius: 10px;
+    border-radius: 12px;
     background: #240732;
-    box-shadow: 7px 7px 19px #1e062a,  -7px -7px 19px #2a083b; }
+    box-shadow: 9px 9px 18px #1d0628,  -9px -9px 18px #2b083c; }
+    .utube__video--2 {
+      margin-top: 14vh;
+      margin-bottom: 4vh; }
   @media screen and (max-width: 50em) {
     .utube {
       flex-direction: column;
@@ -330,7 +348,23 @@ body {
   width: 100%;
   background-color: #ece8e1;
   display: flex;
-  flex-direction: row-reverse; }
+  flex-direction: row-reverse;
+  position: relative;
+  z-index: -1; }
+  .game:after {
+    letter-spacing: 2vw;
+    font-family: "Anton", sans-serif;
+    content: "VALORANT";
+    font-size: 20rem;
+    font-weight: bold;
+    opacity: 0.13;
+    margin: 10vh 0vw 0vh 20vw;
+    position: absolute;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: black;
+    top: 0;
+    left: 0; }
   .game__logo {
     display: flex;
     justify-content: center;
@@ -382,4 +416,4 @@ body {
 
 .footer {
   height: 20vh;
-  color: black; }
+  background-color: #0f1923; }
