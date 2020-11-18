@@ -12,11 +12,11 @@
             content: "BlaNK";
             font-size: 23rem; 
             opacity: 0.3;
-            margin: 10vh 0vw 0vh 50vw ; 
+            margin: 15vw 0vw 0vh 50vw ; 
             position: absolute; 
             -webkit-text-fill-color: transparent;
             -webkit-text-stroke-width: 1px;
-            color: rgb(180, 134, 134); 
+            color: rgb(247, 7, 7); 
             top: 0; 
             left: 0; 
             //z-index: -1; 
@@ -51,6 +51,11 @@
     }
     @media screen and (max-width: $bp-medium){
         flex-direction: column;
+
+        &:after{
+            margin: 100vw 0vw 0vh 20vw;
+            font-size: 20rem; 
+    }
         &__logo{
             
             &--img{

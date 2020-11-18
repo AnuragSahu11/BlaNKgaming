@@ -266,11 +266,11 @@ body {
     content: "BlaNK";
     font-size: 23rem;
     opacity: 0.3;
-    margin: 10vh 0vw 0vh 50vw;
+    margin: 15vw 0vw 0vh 50vw;
     position: absolute;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
-    color: #b48686;
+    color: #f70707;
     top: 0;
     left: 0; }
   .blank__logo {
@@ -293,6 +293,9 @@ body {
   @media screen and (max-width: 50em) {
     .blank {
       flex-direction: column; }
+      .blank:after {
+        margin: 100vw 0vw 0vh 20vw;
+        font-size: 20rem; }
       .blank__logo--img {
         height: auto;
         width: 70%; }
@@ -357,8 +360,8 @@ body {
     content: "VALORANT";
     font-size: 20rem;
     font-weight: bold;
-    opacity: 0.13;
-    margin: 10vh 0vw 0vh 20vw;
+    opacity: 0.1;
+    margin: -3vh 0vw 0vh -2vw;
     position: absolute;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
@@ -416,4 +419,4 @@ body {
 
 .footer {
   height: 20vh;
-  background-color: #0f1923; }
+  background-color: #5e3c9f; }
