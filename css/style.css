@@ -297,8 +297,8 @@ body {
     .blank {
       flex-direction: column; }
       .blank:after {
-        margin: 100vw 0vw 0vh 20vw;
-        font-size: 20rem; }
+        margin: 118vw 0vw 0vh 35vw;
+        font-size: 9rem; }
       .blank__logo--img {
         height: auto;
         width: 70%; }
@@ -355,7 +355,7 @@ body {
       flex-direction: column;
       background-position: center; }
       .utube:after {
-        margin: 62vw 0vw 0vh 0vw; }
+        margin: 77vw 0vw 0vh 0vw; }
       .utube__video {
         margin: 7vh auto 7vh auto;
         width: 75vw;
@@ -430,6 +430,9 @@ body {
   @media screen and (max-width: 50em) {
     .game {
       flex-direction: column; }
+      .game:after {
+        font-size: 10rem;
+        margin: 35vh 0vw 0vh 1vw; }
       .game__logo {
         width: 100%; }
         .game__logo--img {

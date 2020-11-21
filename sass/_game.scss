@@ -85,6 +85,10 @@
     }
     @media screen and (max-width: $bp-medium){
         flex-direction: column;
+        &:after{
+            font-size: 10rem;
+            margin: 35vh 0vw 0vh 1vw ;
+        }
         &__logo{
             width: 100%;
             &--img{
