@@ -44,6 +44,7 @@ body{
 
 .container{
     //display: grid;
+    overflow-x: hidden;
     grid-template-columns: minmax(9vw,auto) repeat(4,min-content) minmax(9vw,auto);
     grid-template-rows: repeat(5,min-content);
 
