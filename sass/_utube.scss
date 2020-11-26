@@ -67,6 +67,7 @@
 
     @media screen and (max-width: $bp-medium){
         flex-direction: column;
+        margin-top: -2.5vh;
         background-position: center;
 
         &:after{
