@@ -307,11 +307,9 @@ body {
         height: auto;
         width: 70%; }
       .blank__text {
-        height: min-content;
+        height: 90vw;
         margin-top: -3px;
-        background-image: linear-gradient(90deg, black 0%, black 20%, #811516 55%, black 100%); }
-        .blank__text--heading--p {
-          padding-bottom: 12vh; } }
+        background-image: linear-gradient(90deg, black 0%, black 20%, #811516 55%, black 100%); } }
 
 .filler {
   margin-top: -4vh;
@@ -493,6 +491,3 @@ body {
   .info__2--p {
     color: blanchedalmond;
     font-size: 1.3rem; }
-    @media screen and (max-width: 50em) {
-      .info__2--p {
-        font-size: 1rem; } }
